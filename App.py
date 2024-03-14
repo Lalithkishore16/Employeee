@@ -285,7 +285,7 @@ def about_page():
         col2.markdown("#   ")
         col2.markdown("""
                       ## <span style="font-size: 18px;">:orange[Created By]:</span><br>
-                      Raghavendran S,<br>
+                      Lalithkishore P,<br>
                       Data Scientist Aspirant,<br>
                       email-id: [kishorekrish1661@gmail.com](mailto:kishorekrish1661@gmail.com)<br>
                       [GitHub-Link](https://github.com/Lalithkishore16)
