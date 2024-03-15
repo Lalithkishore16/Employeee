@@ -260,7 +260,7 @@ def about_page():
                  - Joblib: A library for saving and loading machine learning models efficiently.
                  - Pandas: A data manipulation library for handling structured data.
                  - Matplotlib, Seaborn, Plotly: Data visualization libraries for creating informative charts.
-                 # - Imbalanced-learn: A library for handling imbalanced datasets, used for oversampling with SMOTE."""
+                  ##Imbalanced-learn: A library for handling imbalanced datasets, used for oversampling with SMOTE."""
         )
 
         st.subheader(":violet[Business Domain]")
