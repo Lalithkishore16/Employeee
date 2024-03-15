@@ -209,17 +209,17 @@ def attrition_page():
         st.write(f"Prediction: :orange[**{prediction_dtc}**]")
         st.write(f"Probability of Attrition: :orange[**{probability_dtc:.2%}**]")
 
-        st.subheader("Gradient Boosting Classifier")
-        st.write(f"Prediction: :blue[**{prediction_gbc}**]")
-        st.write(f"Probability of Attrition: :blue[**{probability_gbc:.2%}**]")
+        # st.subheader("Gradient Boosting Classifier")
+        # st.write(f"Prediction: :blue[**{prediction_gbc}**]")
+        # st.write(f"Probability of Attrition: :blue[**{probability_gbc:.2%}**]")
     with col2:
         st.subheader("Logistic Regression")
         st.write(f"Prediction: :orange[**{prediction_lg}**]")
         st.write(f"Probability of Attrition: :orange[**{probability_lg:.2%}**]")
 
-        st.subheader("Support Vector Classifier")
-        st.write(f"Prediction: :blue[**{prediction_svc}**]")
-        st.write(f"Probability of Attrition: :blue[**{probability_svc:.2%}**]")
+        # st.subheader("Support Vector Classifier")
+        # st.write(f"Prediction: :blue[**{prediction_svc}**]")
+        # st.write(f"Probability of Attrition: :blue[**{probability_svc:.2%}**]")
 
 def about_page():
     st.title(":blue[**Attrition Alchemy: Data-Driven Insights and Predictive Strategies for Employee Retention**] ")
@@ -246,8 +246,8 @@ def about_page():
 
         st.subheader(":violet[Approaches:]")
         st.write("""
-                 - The app utilizes machine learning models, including Random Forest, Decision Tree,Gradient Boosting, 
-                 Logistic Regression, and Support Vector Classifier, to make predictions.
+                 - The app utilizes machine learning models, including Random Forest, Decision Tree and
+                 Logistic Regression make predictions.
                  - These models are trained on historical employee data, considering various factors such as age,salary,
                   job role, and work-related factors."""
         )
